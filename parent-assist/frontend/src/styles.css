@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #fdfbff);
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #6366f1;
+  color: white;
+  border: none;
+}
+
+.output {
+  margin-top: 10px;
+  background: #eee;
+  padding: 10px;
+}
